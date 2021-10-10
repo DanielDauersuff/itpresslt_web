@@ -8,6 +8,17 @@ main{
     margin-top: 7em;
 }
 
+.ToPressl{
+    font-size: 1rem;
+    line-height: 2rem;
+    border: thin solid black;
+    background: white;
+    border-radius: .5em;
+}
+.ToPressl:hover{
+    background: #EEEEEE;
+}
+
 /* Alles bezüglich der Menüleiste */
 .menu{
     margin-left: 30em;
