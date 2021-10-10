@@ -30,7 +30,7 @@ main{
 }
 .menuitem,.menuitem:visited{
     margin: 1em;
-    padding: .5em;
+    padding: 3%;
     border: .1em solid black;
     background: white;
 
