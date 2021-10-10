@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
     <!-- Wenn du das hier lesen kannst, -->
     <!-- hältst du dich vermutlich für einen Hacker -->
     <head>
@@ -11,15 +11,29 @@
     <body>
         <header>
             <h1>ITPRESSLTD</h1>
-            <ul class="menu">
-                <a class="menuitem">Startseite</a>
-                <a href="sites/gallery.html" class="menuitem">Gallerie</a>
-                <a href="sites/videos.html" class="menuitem">Videos</a>
-            </ul>
+            <nav>
+                <ul class="menu">
+                    <a class="menuitem">Startseite</a>
+                    <a href="sites/gallery.html" class="menuitem">Gallerie</a>
+                    <a href="sites/videos.html" class="menuitem">Videos</a>
+                </ul>
+            </nav>
         </header>
 
         <main>
-            <p>Dies ist eine inoffizielle Website</p>
+            <p>Dies ist eine inoffizielle Website.</p>
+            <p>Diese Website ist aktuell nicht fertig.</p>
+            
+            <script>
+                "use strict";
+
+                const reqest = require("request");
+                request("https://www.youtube.com/user/ITPRESSLTD", function(error, response, body){
+                    console.error("error: ", error);
+                    console.log("statusCode: ", response && response.statusCode);
+                    console.log("body: ", body)
+                });
+            </script>
         </main>
     </body>
 </html>
