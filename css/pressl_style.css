@@ -4,9 +4,19 @@ html{
     text-align: center;
     background: beige;
 }
+main{
+    margin-top: 7em;
+}
 
-
-/* Alle Links in der Menüleiste */
+/* Alles bezüglich der Menüleiste */
+.menu{
+    margin-left: 30em;
+    margin-right: 30em;
+    padding: 3em;
+    border-radius: 2em;
+    background: white;
+    box-shadow: 0 1em 2em #333333;
+}
 .menuitem,.menuitem:visited{
     margin: 1em;
     padding: .5em;
@@ -17,5 +27,5 @@ html{
     text-decoration: none;
 }
 .menuitem:hover{
-    background: whitesmoke;
+    background: #EEEEEE;
 }
