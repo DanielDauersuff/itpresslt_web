@@ -24,12 +24,24 @@
         <main>
             <p>Dies ist eine inoffizielle Website.</p>
             <p>Diese Website ist aktuell nicht fertig.</p>
+            <p>Sachen, wie z.B. das <a onclick="ShowPressl()">CSS</a> dieser Seite müssen noch um einiges verbessert werden.</p>
         </main>
 
         <footer>
             <a href="https://www.youtube.com/user/ITPRESSLTD" target="_blank">
                 <button class="ToPressl">ZU ITPRESSLTD</button>
             </a>
+            <p id="SecretPressl"></p>
+
+            <script>
+                "use strict";
+
+                let showPressl = false;
+
+                function ShowPressl(){
+                    document.getElementById("SecretPressl").innerHTML = "Du hast mich gefunden";
+                }
+            </script>
         </footer>
     </body>
 </html>
